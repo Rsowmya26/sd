@@ -1,0 +1,151 @@
+﻿# New client instance started at 2024-09-10 09:57:52.812
+
+2024-09-10 09:57:52.818 [01] - INFO: Initiating startup procedure...
+2024-09-10 09:57:52.822 [01] - INFO: Loading text data...
+2024-09-10 09:57:52.822 [01] - DEBUG: [Text] System language is 'en', trying to load data...
+2024-09-10 09:57:52.833 [01] - DEBUG: [Text] Data successfully loaded.
+2024-09-10 09:57:52.833 [01] - INFO: Initializing runtime connection...
+2024-09-10 09:57:52.842 [01] - DEBUG: [RuntimeProxy] Trying to connect to endpoint 'net.pipe://localhost/MSB/runtime/c67d355d-93a4-47f1-9459-c819e771fa0f' with authentication token 'ab199fba-311e-46cc-b9ad-66ff17c85742'...
+2024-09-10 09:57:52.882 [01] - DEBUG: [RuntimeProxy] Communication channel is opening...
+2024-09-10 09:57:52.902 [01] - DEBUG: [RuntimeProxy] Communication channel has been opened.
+2024-09-10 09:57:52.922 [01] - DEBUG: [RuntimeProxy] Connection was established.
+2024-09-10 09:57:52.922 [01] - INFO: Successfully connected to the runtime.
+2024-09-10 09:57:52.922 [01] - INFO: Initializing application configuration...
+2024-09-10 09:57:52.922 [01] - DEBUG: [RuntimeProxy] Sending message 'SimpleMessage -> ConfigurationNeeded'...
+2024-09-10 09:57:53.012 [01] - DEBUG: [RuntimeProxy] Received response 'ConfigurationResponse' for message 'SimpleMessage -> ConfigurationNeeded'.
+2024-09-10 09:57:53.012 [01] - DEBUG: [RuntimeProxy] Received configuration response.
+2024-09-10 09:57:53.012 [01] - INFO: Successfully retrieved the application configuration from the runtime.
+2024-09-10 09:57:53.012 [01] - INFO:  -> Client-ID: 09e4973c-7e8d-467b-bc42-b01fe623d545
+2024-09-10 09:57:53.012 [01] - INFO:  -> Runtime-ID: fe720425-01ed-4ad4-857a-7d2ab1e99f30
+2024-09-10 09:57:53.012 [01] - INFO:  -> Session-ID: ce829d10-3e8a-4f34-8799-cd5e23917567
+2024-09-10 09:57:53.025 [01] - INFO: Starting communication host...
+2024-09-10 09:57:53.026 [07] - DEBUG: [ClientHost] Communication host is opening...
+2024-09-10 09:57:53.032 [07] - DEBUG: [ClientHost] Communication host has been opened.
+2024-09-10 09:57:53.032 [07] - DEBUG: [ClientHost] Successfully started communication host for endpoint 'net.pipe://localhost/MSB/client/299253a6-994e-4b79-aa11-8a814a0b7be2'.
+2024-09-10 09:57:53.039 [01] - INFO: Starting keyboard interception...
+2024-09-10 09:57:53.042 [01] - INFO: Starting mouse interception...
+2024-09-10 09:57:53.047 [01] - INFO: Initializing applications...
+2024-09-10 09:57:53.143 [01] - DEBUG: [ApplicationMonitor] Initialized 215 currently running processes.
+2024-09-10 09:57:53.143 [01] - DEBUG: [ApplicationMonitor] Initialized blacklist with 119 applications: AeroAdmin.exe, CamPlay.exe, Camtasia.exe, CamtasiaStudio.exe, Camtasia_Studio.exe, CamRecorder.exe, CamtasiaUtl.exe, chromoting.exe, CiscoCollabHost.exe, CiscoWebExStart.exe, Discord.exe, Element.exe, g2mcomm.exe, g2mstart.exe, GotoMeetingWinStore.exe, ptoneclk.exe, RemotePCDesktop.exe, RPCService.exe, RPCSuite.exe, SkypeApp.exe, SkypeHost.exe, slack.exe, Telegram.exe, vncserverui.exe, webexmta.exe, Zoom.exe, join.me.sentinel.exe, join.me.exe, remotepcsuite.exe, remotepcuiu.exe, remotepcservice.exe, rpcperformanceservice.exe, beamyourscreen-host.exe, vncviewer.exe, vnclicencewiz.exe, vncserver.exe, teamviewer.exe, goto.exe, skype.exe, webkit2webprocess.exe, chrome.exe, anydesk.exe, romviewer.exe, rutview.exe, autotyper.exe, mikogo-host.exe, mikogo-service.exe, smpcsetup.exe, screenleap.exe, au3info.exe, tvnserver.exe, winvnc.exe, ghostmouse.exe, _prog.exe, tinytask-1-77.exe, anymeeting.exe, g2mcomm.exe, srserver.exe, srstreamer.exe, g2mlauncher.exe, aa_v3.exe, atmgr.exe, jabber.exe, meeting center.exe, clickmeeting.exe, myroom.exe, obs64.exe, vnc viewer.exe, team viewer.exe, keepass.exe, crossloopconnect.exe, srservice.exe, glance.exe, sidesync.exe, ciscojabber.exe, bbqscreenclient2.exe, screenconnect.service.exe, mousekeyboardrecorder.exe, mouserecorder.exe, macrotoolworks.exe, typing assistant.exe, typingassisstant64.exe, lync.exe, vidyodesktop.exe, deskrollua.exe, mspaint.exe, remoteserverwin.exe, teams.exe, iexplore.exe, supremo.exe, remote pc server.exe, msedge.exe, opera.exe, ultraviewer_desktop.exe, clickmeeting desktop.exe, iperius remote.exe, altercam.exe, fakewebcam.exe, mozila, iriunwebcam.exe, droidcamapp.exe, ispy.exe, ispymonitor.exe, ivcam.exe, ip camera viewer.exe, athomevideostreamer.exe, manycam.exe, youcam10.exe, webcammax.exe, remoting_host.exe, anydesk (1).exe, anydesk (2).exe, anydesk (3).exe, automatos remote control client.exe, automatos remote control client 11477307.exe, ms-teams.exe, teamviewermeeting.exe, msteams.exe, dc_rds.exe
+2024-09-10 09:57:53.143 [01] - DEBUG: [ApplicationMonitor] Process 'AnyDesk.exe' (6476) belongs to application 'anydesk.exe' and needs to be terminated.
+2024-09-10 09:57:53.151 [01] - DEBUG: [ApplicationMonitor] Initialized whitelist with 0 applications.
+2024-09-10 09:57:53.152 [01] - INFO: The following applications need to be terminated: anydesk.exe.
+2024-09-10 09:58:00.965 [01] - INFO: The user chose to automatically terminate all running applications.
+2024-09-10 09:58:00.965 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to close process...
+2024-09-10 09:58:00.976 [01] - WARNING: [Process 'AnyDesk.exe' (6476)] Failed to send close message to main window!
+2024-09-10 09:58:00.976 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to close process...
+2024-09-10 09:58:00.978 [01] - WARNING: [Process 'AnyDesk.exe' (6476)] Failed to send close message to main window!
+2024-09-10 09:58:00.982 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to close process...
+2024-09-10 09:58:00.982 [01] - WARNING: [Process 'AnyDesk.exe' (6476)] Failed to send close message to main window!
+2024-09-10 09:58:00.982 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to close process...
+2024-09-10 09:58:00.982 [01] - WARNING: [Process 'AnyDesk.exe' (6476)] Failed to send close message to main window!
+2024-09-10 09:58:00.982 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to close process...
+2024-09-10 09:58:00.982 [01] - WARNING: [Process 'AnyDesk.exe' (6476)] Failed to send close message to main window!
+2024-09-10 09:58:00.995 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to check whether process is terminated!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.get_HasExited()
+   at SafeExamBrowser.WindowsApi.Process.IsTerminated()
+
+2024-09-10 09:58:00.995 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to kill process...
+2024-09-10 09:58:01.008 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to kill process!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at SafeExamBrowser.WindowsApi.Process.TryKill(Int32 timeout_ms)
+
+2024-09-10 09:58:01.008 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to kill process...
+2024-09-10 09:58:01.008 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to kill process!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at SafeExamBrowser.WindowsApi.Process.TryKill(Int32 timeout_ms)
+
+2024-09-10 09:58:01.008 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to kill process...
+2024-09-10 09:58:01.008 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to kill process!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at SafeExamBrowser.WindowsApi.Process.TryKill(Int32 timeout_ms)
+
+2024-09-10 09:58:01.008 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to kill process...
+2024-09-10 09:58:01.008 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to kill process!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at SafeExamBrowser.WindowsApi.Process.TryKill(Int32 timeout_ms)
+
+2024-09-10 09:58:01.008 [01] - DEBUG: [Process 'AnyDesk.exe' (6476)] Attempting to kill process...
+2024-09-10 09:58:01.008 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to kill process!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at SafeExamBrowser.WindowsApi.Process.TryKill(Int32 timeout_ms)
+
+2024-09-10 09:58:01.024 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to check whether process is terminated!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.get_HasExited()
+   at SafeExamBrowser.WindowsApi.Process.IsTerminated()
+
+2024-09-10 09:58:01.024 [01] - WARNING: [ApplicationMonitor] Failed to terminate process 'AnyDesk.exe' (6476)!
+2024-09-10 09:58:01.024 [01] - ERROR: [Process 'AnyDesk.exe' (6476)] Failed to check whether process is terminated!
+
+   Exception Message: Access is denied
+   Exception Type: System.ComponentModel.Win32Exception
+
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.get_HasExited()
+   at SafeExamBrowser.WindowsApi.Process.IsTerminated()
+
+2024-09-10 09:58:01.024 [01] - ERROR: Failed to automatically terminate application 'anydesk.exe'!
+2024-09-10 09:58:02.589 [01] - INFO: Finalizing applications...
+2024-09-10 09:58:02.599 [01] - INFO: [ApplicationMonitor] Stopped monitoring applications.
+2024-09-10 09:58:02.599 [01] - INFO: Stopping mouse interception...
+2024-09-10 09:58:02.604 [01] - INFO: Stopping keyboard interception...
+2024-09-10 09:58:02.605 [01] - INFO: The runtime has already disconnected from the client communication host.
+2024-09-10 09:58:02.605 [01] - INFO: Stopping communication host...
+2024-09-10 09:58:02.608 [01] - DEBUG: [ClientHost] Communication host is closing...
+2024-09-10 09:58:02.608 [01] - DEBUG: [ClientHost] Communication host has been closed.
+2024-09-10 09:58:02.608 [01] - DEBUG: [ClientHost] Terminated communication host for endpoint 'net.pipe://localhost/MSB/client/299253a6-994e-4b79-aa11-8a814a0b7be2'.
+2024-09-10 09:58:02.608 [01] - INFO: Closing runtime connection...
+2024-09-10 09:58:02.629 [01] - DEBUG: [RuntimeProxy] Communication channel is closing...
+2024-09-10 09:58:02.629 [01] - DEBUG: [RuntimeProxy] Communication channel has been closed.
+2024-09-10 09:58:02.629 [01] - DEBUG: [RuntimeProxy] Disconnected from 'net.pipe://localhost/MSB/runtime/c67d355d-93a4-47f1-9459-c819e771fa0f'.
+2024-09-10 09:58:02.629 [01] - INFO: Successfully disconnected from the runtime.
+2024-09-10 09:58:02.629 [01] - INFO: Application startup aborted!
+
+
+2024-09-10 09:58:02.636 [01] - INFO: Initiating shutdown procedure...
+2024-09-10 09:58:02.639 [01] - INFO: Application successfully finalized.
+
+# Client instance terminated at 2024-09-10 09:58:02.652

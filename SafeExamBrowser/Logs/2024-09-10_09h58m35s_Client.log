@@ -1,0 +1,195 @@
+﻿# New client instance started at 2024-09-10 09:58:38.262
+
+2024-09-10 09:58:38.262 [01] - INFO: Initiating startup procedure...
+2024-09-10 09:58:38.284 [01] - INFO: Loading text data...
+2024-09-10 09:58:38.294 [01] - DEBUG: [Text] System language is 'en', trying to load data...
+2024-09-10 09:58:38.294 [01] - DEBUG: [Text] Data successfully loaded.
+2024-09-10 09:58:38.294 [01] - INFO: Initializing runtime connection...
+2024-09-10 09:58:38.309 [01] - DEBUG: [RuntimeProxy] Trying to connect to endpoint 'net.pipe://localhost/MSB/runtime/f6585766-052e-45f3-8c2f-9ea035e5f7c5' with authentication token '68544496-cff5-4bb3-8ed4-4b6f1320465f'...
+2024-09-10 09:58:38.341 [01] - DEBUG: [RuntimeProxy] Communication channel is opening...
+2024-09-10 09:58:38.372 [01] - DEBUG: [RuntimeProxy] Communication channel has been opened.
+2024-09-10 09:58:38.389 [01] - DEBUG: [RuntimeProxy] Connection was established.
+2024-09-10 09:58:38.389 [01] - INFO: Successfully connected to the runtime.
+2024-09-10 09:58:38.389 [01] - INFO: Initializing application configuration...
+2024-09-10 09:58:38.389 [01] - DEBUG: [RuntimeProxy] Sending message 'SimpleMessage -> ConfigurationNeeded'...
+2024-09-10 09:58:38.500 [01] - DEBUG: [RuntimeProxy] Received response 'ConfigurationResponse' for message 'SimpleMessage -> ConfigurationNeeded'.
+2024-09-10 09:58:38.500 [01] - DEBUG: [RuntimeProxy] Received configuration response.
+2024-09-10 09:58:38.500 [01] - INFO: Successfully retrieved the application configuration from the runtime.
+2024-09-10 09:58:38.500 [01] - INFO:  -> Client-ID: 92673bad-7f49-4f47-9d33-c06c92df5e04
+2024-09-10 09:58:38.500 [01] - INFO:  -> Runtime-ID: 79a1b8a9-dcc8-4868-945e-9b0c3c9d1e2c
+2024-09-10 09:58:38.500 [01] - INFO:  -> Session-ID: c675329d-766e-4dc6-80d6-212e15f93b1a
+2024-09-10 09:58:38.500 [01] - INFO: Starting communication host...
+2024-09-10 09:58:38.500 [07] - DEBUG: [ClientHost] Communication host is opening...
+2024-09-10 09:58:38.516 [07] - DEBUG: [ClientHost] Communication host has been opened.
+2024-09-10 09:58:38.516 [07] - DEBUG: [ClientHost] Successfully started communication host for endpoint 'net.pipe://localhost/MSB/client/8c9b02b7-f798-42f9-b91a-42780a630a2d'.
+2024-09-10 09:58:38.516 [01] - INFO: Starting keyboard interception...
+2024-09-10 09:58:38.516 [01] - INFO: Starting mouse interception...
+2024-09-10 09:58:38.532 [01] - INFO: Initializing applications...
+2024-09-10 09:58:38.626 [01] - DEBUG: [ApplicationMonitor] Initialized 212 currently running processes.
+2024-09-10 09:58:38.626 [01] - DEBUG: [ApplicationMonitor] Initialized blacklist with 119 applications: AeroAdmin.exe, CamPlay.exe, Camtasia.exe, CamtasiaStudio.exe, Camtasia_Studio.exe, CamRecorder.exe, CamtasiaUtl.exe, chromoting.exe, CiscoCollabHost.exe, CiscoWebExStart.exe, Discord.exe, Element.exe, g2mcomm.exe, g2mstart.exe, GotoMeetingWinStore.exe, ptoneclk.exe, RemotePCDesktop.exe, RPCService.exe, RPCSuite.exe, SkypeApp.exe, SkypeHost.exe, slack.exe, Telegram.exe, vncserverui.exe, webexmta.exe, Zoom.exe, join.me.sentinel.exe, join.me.exe, remotepcsuite.exe, remotepcuiu.exe, remotepcservice.exe, rpcperformanceservice.exe, beamyourscreen-host.exe, vncviewer.exe, vnclicencewiz.exe, vncserver.exe, teamviewer.exe, goto.exe, skype.exe, webkit2webprocess.exe, chrome.exe, anydesk.exe, romviewer.exe, rutview.exe, autotyper.exe, mikogo-host.exe, mikogo-service.exe, smpcsetup.exe, screenleap.exe, au3info.exe, tvnserver.exe, winvnc.exe, ghostmouse.exe, _prog.exe, tinytask-1-77.exe, anymeeting.exe, g2mcomm.exe, srserver.exe, srstreamer.exe, g2mlauncher.exe, aa_v3.exe, atmgr.exe, jabber.exe, meeting center.exe, clickmeeting.exe, myroom.exe, obs64.exe, vnc viewer.exe, team viewer.exe, keepass.exe, crossloopconnect.exe, srservice.exe, glance.exe, sidesync.exe, ciscojabber.exe, bbqscreenclient2.exe, screenconnect.service.exe, mousekeyboardrecorder.exe, mouserecorder.exe, macrotoolworks.exe, typing assistant.exe, typingassisstant64.exe, lync.exe, vidyodesktop.exe, deskrollua.exe, mspaint.exe, remoteserverwin.exe, teams.exe, iexplore.exe, supremo.exe, remote pc server.exe, msedge.exe, opera.exe, ultraviewer_desktop.exe, clickmeeting desktop.exe, iperius remote.exe, altercam.exe, fakewebcam.exe, mozila, iriunwebcam.exe, droidcamapp.exe, ispy.exe, ispymonitor.exe, ivcam.exe, ip camera viewer.exe, athomevideostreamer.exe, manycam.exe, youcam10.exe, webcammax.exe, remoting_host.exe, anydesk (1).exe, anydesk (2).exe, anydesk (3).exe, automatos remote control client.exe, automatos remote control client 11477307.exe, ms-teams.exe, teamviewermeeting.exe, msteams.exe, dc_rds.exe
+2024-09-10 09:58:38.626 [01] - DEBUG: [ApplicationMonitor] Initialized whitelist with 0 applications.
+2024-09-10 09:58:38.626 [01] - INFO: [ApplicationMonitor] Started monitoring applications.
+2024-09-10 09:58:38.626 [01] - INFO: [ApplicationMonitor] Registered system capture start event with ID = 3a71cd1b-b704-41ef-8a02-aba8dea2c26b.
+2024-09-10 09:58:38.626 [01] - INFO: [ApplicationMonitor] Registered system foreground event with ID = 2f7098be-b4dd-44c7-87a2-8dae1cac4ddf.
+2024-09-10 09:58:38.626 [01] - INFO: Initializing working area...
+2024-09-10 09:58:38.626 [01] - INFO: [DisplayMonitor] Disabled sleep mode and display timeout.
+2024-09-10 09:58:38.642 [01] - DEBUG: [Taskbar] Calculated physical taskbar height is 50px.
+2024-09-10 09:58:38.642 [01] - INFO: [DisplayMonitor] Saved original working area for DISPLAY1 (1920x1080): Left = 0, Top = 0, Right = 1920, Bottom = 1020.
+2024-09-10 09:58:38.642 [01] - INFO: [DisplayMonitor] Trying to set new working area for DISPLAY1 (1920x1080): Left = 0, Top = 0, Right = 1920, Bottom = 1030.
+2024-09-10 09:58:38.642 [01] - INFO: [DisplayMonitor] Working area of DISPLAY1 (1920x1080) is now set to: Left = 0, Top = 0, Right = 1920, Bottom = 1030.
+2024-09-10 09:58:38.642 [01] - INFO: [DisplayMonitor] Started monitoring display changes.
+2024-09-10 09:58:38.642 [01] - INFO: Initializing system events...
+2024-09-10 09:58:38.642 [01] - INFO: [SystemMonitor] Started monitoring the operating system.
+2024-09-10 09:58:38.642 [01] - INFO: Initializing shell...
+2024-09-10 09:58:38.689 [01] - INFO: [Audio] Found 'Speakers (2- Cirrus Logic High Definition Audio)' to be the active audio device.
+2024-09-10 09:58:38.816 [01] - INFO: [Audio] Started monitoring the audio device.
+2024-09-10 09:58:38.816 [01] - INFO: [Audio] Saved original volume of 100%.
+2024-09-10 09:58:38.816 [01] - INFO: [Audio] Set initial volume to 100%.
+2024-09-10 09:58:38.832 [01] - INFO: [Keyboard] Saved current keyboard layout 'English (United States)' [ENG, English (India)].
+2024-09-10 09:58:38.832 [01] - INFO: [Keyboard] Detected keyboard layout 'English (United States)' [ENG, English (India)].
+2024-09-10 09:58:38.832 [01] - INFO: [Keyboard] Detected keyboard layout 'English (India)' [ENG, Unknown layout].
+2024-09-10 09:58:38.894 [01] - INFO: [NetworkAdapter] Connection established.
+2024-09-10 09:58:38.894 [01] - INFO: [NetworkAdapter] Started monitoring the network adapter.
+2024-09-10 09:58:38.894 [01] - INFO: [PowerSupply] Started monitoring the power supply.
+2024-09-10 09:58:38.894 [01] - INFO: Action center is disabled, skipping initialization.
+2024-09-10 09:58:38.894 [01] - INFO: Initializing taskbar...
+2024-09-10 09:58:38.894 [01] - DEBUG: [PowerSupply] Power grid is not connected, battery charge at 51% (00:50:00).
+2024-09-10 09:58:38.894 [01] - INFO: Initializing task view...
+2024-09-10 09:58:38.910 [01] - INFO: Initializing browser...
+2024-09-10 09:58:38.910 [01] - INFO: [BrowserApplication] Starting initialization...
+2024-09-10 09:58:40.094 [01] - DEBUG: [BrowserApplication] Accept Language: en-US
+2024-09-10 09:58:40.094 [01] - DEBUG: [BrowserApplication] Cache Path: C:\Users\ADMIN\AppData\Local\SafeExamBrowser\Cache
+2024-09-10 09:58:40.094 [01] - DEBUG: [BrowserApplication] Engine Version: Chromium 107.0.5304.68, CEF r107.1.4+geb36a79+chromium-107.0.5304.68, CefSharp 107.1.40.0
+2024-09-10 09:58:40.094 [01] - DEBUG: [BrowserApplication] Log File: C:\Users\ADMIN\AppData\Local\SafeExamBrowser\Logs\2024-09-10_09h58m35s_Browser.log
+2024-09-10 09:58:40.094 [01] - DEBUG: [BrowserApplication] Log Severity: Info.
+2024-09-10 09:58:40.094 [01] - DEBUG: [BrowserApplication] PDF Reader: Enabled.
+2024-09-10 09:58:40.094 [01] - DEBUG: [BrowserApplication] Session Persistence: Disabled.
+2024-09-10 09:58:40.141 [01] - DEBUG: [BrowserApplication] Successfully initiated cookie deletion.
+2024-09-10 09:58:40.141 [01] - INFO: [BrowserApplication] Initialized browser.
+2024-09-10 09:58:40.157 [01] - INFO: Emptying clipboard...
+2024-09-10 09:58:40.189 [01] - DEBUG: [Taskbar] Set taskbar bounds to 1536x40 at (0/824), in physical pixels: 1920x50 at (0/1030).
+2024-09-10 09:58:40.205 [01] - INFO: Auto-starting browser...
+2024-09-10 09:58:40.236 [01] - INFO: [Browser Window #1] msbTestType : RRWeb
+2024-09-10 09:58:40.252 [01] - DEBUG: [Browser Window #1] Initialized browser control.
+2024-09-10 09:58:40.347 [01] - DEBUG: [Browser Window #1] Initialized browser window.
+2024-09-10 09:58:40.362 [01] - INFO: [BrowserApplication] Created browser window #1.
+2024-09-10 09:58:40.362 [01] - DEBUG: [RuntimeProxy] Sending message 'SimpleMessage -> ClientIsReady'...
+2024-09-10 09:58:40.362 [19] - DEBUG: [ApplicationMonitor] Window has changed from  to 'Taskbar' (198232).
+2024-09-10 09:58:40.362 [01] - DEBUG: [RuntimeProxy] Received response 'SimpleResponse -> Acknowledged' for message 'SimpleMessage -> ClientIsReady'.
+2024-09-10 09:58:40.362 [01] - DEBUG: [RuntimeProxy] Runtime acknowledged that the client is ready.
+2024-09-10 09:58:40.362 [01] - INFO: Application successfully initialized.
+
+2024-09-10 09:58:40.362 [19] - DEBUG: [ApplicationMonitor] Window has changed from 'Taskbar' (198232) to '' (1246702).
+2024-09-10 09:58:40.396 [13] - DEBUG: [ClientHost] Received connection request with authentication token '68544496-cff5-4bb3-8ed4-4b6f1320465f'.
+2024-09-10 09:58:40.396 [13] - DEBUG: [ClientHost] Accepted connection request.
+2024-09-10 09:58:40.410 [04] - DEBUG: [ClientHost] Received message 'SimpleMessage -> Authenticate', sending response 'AuthenticationResponse'.
+2024-09-10 09:58:40.441 [26] - DEBUG: [BrowserApplication] Deleted 0 cookies.
+2024-09-10 09:58:40.441 [28] - DEBUG: [KeyGenerator] Initializing browser exam key...
+2024-09-10 09:58:40.457 [28] - WARNING: [KeyGenerator] The current configuration does not contain a salt value for the browser exam key!
+2024-09-10 09:58:40.457 [28] - WARNING: [IntegrityModule] Integrity module is not available!
+2024-09-10 09:58:40.457 [28] - WARNING: [KeyGenerator] Failed to calculate BEK using integrity module! Falling back to simplified calculation...
+2024-09-10 09:58:40.706 [27] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (14232) has been started.
+2024-09-10 09:58:40.706 [27] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (16740) has been started.
+2024-09-10 09:58:40.706 [27] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (14452) has been started.
+2024-09-10 09:58:40.706 [27] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (1836) has been started.
+2024-09-10 09:58:40.706 [27] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (13460) has been started.
+2024-09-10 09:58:40.706 [27] - DEBUG: [ApplicationMonitor] Process 'svchost.exe' (7552) has been terminated.
+2024-09-10 09:58:41.844 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 09:58:47.000 [24] - DEBUG: [ApplicationMonitor] Process 'WindowsPackageManagerServer.exe' (16260) has been started.
+2024-09-10 09:58:49.086 [24] - DEBUG: [ApplicationMonitor] Process 'WindowsPackageManagerServer.exe' (16260) has been terminated.
+2024-09-10 09:58:53.275 [26] - DEBUG: [ApplicationMonitor] Process 'svchost.exe' (16236) has been terminated.
+2024-09-10 09:58:55.192 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 09:58:55.224 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 09:58:57.492 [24] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (10072) has been started.
+2024-09-10 09:59:00.895 [18] - DEBUG: [ApplicationMonitor] Window has changed from '' (1246702) to '' (1114564).
+2024-09-10 09:59:01.112 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 09:59:01.354 [04] - INFO: [Browser Window #1] The callback is received from the web app.
+2024-09-10 09:59:01.402 [04] - INFO: [Browser Window #1] PING is received from Web App.
+2024-09-10 09:59:01.454 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 09:59:01.503 [29] - INFO: [Browser Window #1] Pong callback has returned success in its response.
+2024-09-10 09:59:02.862 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 09:59:03.782 [24] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (5048) has been started.
+2024-09-10 09:59:03.782 [24] - DEBUG: [ApplicationMonitor] Process 'svchost.exe' (1780) has been started.
+2024-09-10 09:59:05.882 [27] - DEBUG: [ApplicationMonitor] Process 'WindowsPackageManagerServer.exe' (10992) has been started.
+2024-09-10 09:59:07.964 [29] - DEBUG: [ApplicationMonitor] Process 'CefSharp.BrowserSubprocess.exe' (5048) has been terminated.
+2024-09-10 09:59:07.964 [29] - DEBUG: [ApplicationMonitor] Process 'WindowsPackageManagerServer.exe' (10992) has been terminated.
+2024-09-10 09:59:09.848 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 09:59:10.052 [26] - DEBUG: [ApplicationMonitor] Process 'svchost.exe' (19000) has been terminated.
+2024-09-10 09:59:18.382 [26] - DEBUG: [ApplicationMonitor] Process 'WmiPrvSE.exe' (15136) has been terminated.
+2024-09-10 09:59:32.995 [26] - DEBUG: [ApplicationMonitor] Process 'svchost.exe' (1780) has been terminated.
+2024-09-10 09:59:38.400 [26] - DEBUG: [RuntimeProxy] Sending message 'SimpleMessage -> Ping'...
+2024-09-10 09:59:38.404 [26] - DEBUG: [RuntimeProxy] Received response 'SimpleResponse -> Acknowledged' for message 'SimpleMessage -> Ping'.
+2024-09-10 09:59:38.404 [26] - INFO: [RuntimeProxy] Pinged host, connection is alive.
+2024-09-10 09:59:39.191 [27] - DEBUG: [PowerSupply] Power grid is not connected, battery charge at 50% (01:10:00).
+2024-09-10 09:59:40.426 [04] - DEBUG: [ClientHost] Received message 'SimpleMessage -> Ping', sending response 'SimpleResponse -> Acknowledged'.
+2024-09-10 09:59:53.754 [27] - DEBUG: [ApplicationMonitor] Process 'msiexec.exe' (11556) has been started.
+2024-09-10 10:00:06.319 [29] - DEBUG: [ApplicationMonitor] Process 'svchost.exe' (18156) has been started.
+2024-09-10 10:00:12.656 [27] - DEBUG: [ApplicationMonitor] Process 'RuntimeBroker.exe' (18444) has been started.
+2024-09-10 10:00:12.656 [27] - DEBUG: [ApplicationMonitor] Process 'backgroundTaskHost.exe' (19444) has been started.
+2024-09-10 10:00:31.882 [25] - INFO: [Browser Window #1] Navigated.
+2024-09-10 10:00:38.409 [29] - DEBUG: [RuntimeProxy] Sending message 'SimpleMessage -> Ping'...
+2024-09-10 10:00:38.411 [29] - DEBUG: [RuntimeProxy] Received response 'SimpleResponse -> Acknowledged' for message 'SimpleMessage -> Ping'.
+2024-09-10 10:00:38.411 [29] - INFO: [RuntimeProxy] Pinged host, connection is alive.
+2024-09-10 10:00:39.534 [29] - DEBUG: [PowerSupply] Power grid is not connected, battery charge at 50% (01:10:00).
+2024-09-10 10:00:39.712 [19] - DEBUG: [ApplicationMonitor] Window has changed from '' (1114564) to 'Taskbar' (198232).
+2024-09-10 10:00:39.940 [19] - DEBUG: [ApplicationMonitor] Window has changed from 'Taskbar' (198232) to 'Quit?' (919072).
+2024-09-10 10:00:40.429 [30] - DEBUG: [ClientHost] Received message 'SimpleMessage -> Ping', sending response 'SimpleResponse -> Acknowledged'.
+2024-09-10 10:00:41.437 [18] - DEBUG: [ApplicationMonitor] Window has changed from 'Quit?' (919072) to '&Yes' (198430).
+2024-09-10 10:00:41.652 [01] - INFO: The user chose to terminate the application.
+2024-09-10 10:00:41.652 [01] - DEBUG: [RuntimeProxy] Sending message 'SimpleMessage -> RequestShutdown'...
+2024-09-10 10:00:41.652 [19] - DEBUG: [ApplicationMonitor] Window has changed from '&Yes' (198430) to 'Taskbar' (198232).
+2024-09-10 10:00:41.657 [01] - DEBUG: [RuntimeProxy] Received response 'SimpleResponse -> Acknowledged' for message 'SimpleMessage -> RequestShutdown'.
+2024-09-10 10:00:41.657 [01] - DEBUG: [RuntimeProxy] Runtime acknowledged shutdown request.
+2024-09-10 10:00:41.675 [15] - DEBUG: [ClientHost] Received message 'SimpleMessage -> Shutdown', sending response 'SimpleResponse -> Acknowledged'.
+
+2024-09-10 10:00:41.679 [01] - INFO: Initiating shutdown procedure...
+2024-09-10 10:00:41.681 [19] - DEBUG: [ApplicationMonitor] Window has changed from 'Taskbar' (198232) to 'SplashScreen' (984256).
+2024-09-10 10:00:41.691 [30] - DEBUG: [ClientHost] Received disconnection request with message 'DisconnectionMessage'.
+2024-09-10 10:00:41.709 [01] - INFO: Emptying clipboard...
+2024-09-10 10:00:41.709 [01] - INFO: Terminating browser...
+2024-09-10 10:00:41.714 [01] - INFO: [BrowserApplication] Initiating termination...
+2024-09-10 10:00:42.219 [01] - DEBUG: [Browser Window #1] Window is closing...
+2024-09-10 10:00:42.235 [01] - DEBUG: [Browser Window #1] Window has been closed.
+2024-09-10 10:00:44.270 [01] - INFO: [BrowserApplication] Closed browser window #1.
+2024-09-10 10:00:44.270 [01] - DEBUG: [BrowserApplication] Successfully initiated cookie deletion.
+2024-09-10 10:00:44.297 [27] - WARNING: [BrowserApplication] Failed to delete cookies!
+2024-09-10 10:00:44.420 [01] - INFO: [BrowserApplication] Terminated browser.
+2024-09-10 10:00:44.446 [01] - ERROR: [BrowserApplication] Failed to delete browser cache!
+
+   Exception Message: The process cannot access the file '000003.log' because it is being used by another process.
+   Exception Type: System.IO.IOException
+
+   at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   at SafeExamBrowser.Browser.BrowserApplication.DeleteCache()
+
+2024-09-10 10:00:44.446 [01] - INFO: Terminating shell...
+2024-09-10 10:00:44.450 [01] - INFO: [Audio] Reverted volume to original value of 100%.
+2024-09-10 10:00:44.452 [01] - INFO: [Audio] Stopped monitoring the audio device.
+2024-09-10 10:00:44.453 [01] - INFO: [Keyboard] Restored original keyboard layout 'English (United States)' [ENG, English (India)].
+2024-09-10 10:00:44.454 [01] - INFO: [NetworkAdapter] Stopped monitoring the network adapter.
+2024-09-10 10:00:44.454 [01] - INFO: [PowerSupply] Stopped monitoring the power supply.
+2024-09-10 10:00:44.454 [01] - INFO: Finalizing system events...
+2024-09-10 10:00:44.455 [01] - INFO: [SystemMonitor] Stopped monitoring the operating system.
+2024-09-10 10:00:44.456 [01] - INFO: Restoring working area...
+2024-09-10 10:00:44.456 [01] - INFO: [DisplayMonitor] Stopped monitoring display changes.
+2024-09-10 10:00:44.457 [01] - INFO: [DisplayMonitor] Restored original working area for DISPLAY1 (1920x1080): Left = 0, Top = 0, Right = 1920, Bottom = 1020.
+2024-09-10 10:00:44.457 [01] - INFO: Finalizing applications...
+2024-09-10 10:00:44.458 [01] - INFO: [ApplicationMonitor] Stopped monitoring applications.
+2024-09-10 10:00:44.460 [01] - INFO: [ApplicationMonitor] Unregistered system capture start event with ID = 3a71cd1b-b704-41ef-8a02-aba8dea2c26b.
+2024-09-10 10:00:44.460 [01] - INFO: [ApplicationMonitor] Unregistered system foreground event with ID = 2f7098be-b4dd-44c7-87a2-8dae1cac4ddf.
+2024-09-10 10:00:44.460 [01] - INFO: Stopping mouse interception...
+2024-09-10 10:00:44.461 [01] - INFO: Stopping keyboard interception...
+2024-09-10 10:00:44.462 [01] - INFO: The runtime has already disconnected from the client communication host.
+2024-09-10 10:00:44.462 [01] - INFO: Stopping communication host...
+2024-09-10 10:00:44.463 [01] - DEBUG: [ClientHost] Communication host is closing...
+2024-09-10 10:00:44.464 [01] - DEBUG: [ClientHost] Communication host has been closed.
+2024-09-10 10:00:44.464 [01] - DEBUG: [ClientHost] Terminated communication host for endpoint 'net.pipe://localhost/MSB/client/8c9b02b7-f798-42f9-b91a-42780a630a2d'.
+2024-09-10 10:00:44.465 [01] - INFO: Closing runtime connection...
+2024-09-10 10:00:44.478 [01] - DEBUG: [RuntimeProxy] Communication channel is closing...
+2024-09-10 10:00:44.479 [01] - DEBUG: [RuntimeProxy] Communication channel has been closed.
+2024-09-10 10:00:44.479 [01] - DEBUG: [RuntimeProxy] Disconnected from 'net.pipe://localhost/MSB/runtime/f6585766-052e-45f3-8c2f-9ea035e5f7c5'.
+2024-09-10 10:00:44.479 [01] - INFO: Successfully disconnected from the runtime.
+2024-09-10 10:00:44.479 [01] - INFO: Application successfully finalized.
+
+# Client instance terminated at 2024-09-10 10:00:44.485
